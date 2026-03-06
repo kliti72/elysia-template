@@ -1,6 +1,5 @@
 // drizzle.config.ts — nella root
 import { defineConfig } from 'drizzle-kit'
-import { env } from './config/env'
 
 const db = Bun.env.DB_PATH ?? './config/database/app.db'
 
@@ -9,6 +8,6 @@ export default defineConfig({
   out: './drizzle',
   dialect: 'sqlite',
   dbCredentials: {
-    url: db;
+    url: db
   },
 })
