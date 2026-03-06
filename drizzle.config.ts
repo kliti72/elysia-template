@@ -2,11 +2,13 @@
 import { defineConfig } from 'drizzle-kit'
 import { env } from './config/env'
 
+const db = Bun.env.DB_PATH ?? './config/database/app.db'
+
 export default defineConfig({
   schema: './config/schema.ts',
   out: './drizzle',
   dialect: 'sqlite',
   dbCredentials: {
-    url: env.db.path ?? 'app.db',
+    url: db;
   },
 })
