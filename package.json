@@ -16,6 +16,7 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "elysia": "latest",
     "drizzle-orm": "^0.45.1"
   }
 }
