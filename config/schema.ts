@@ -1,3 +1,6 @@
+// NOT EDIT MUCH THIS FILE, USE ONLY WITH Elysia-cli
+// https://github.com/kliti72/elysia-cli
+
 import { sqliteTable, integer, text } from 'drizzle-orm/sqlite-core'
 import { sql } from 'drizzle-orm'
 

@@ -11,7 +11,7 @@ export const routes: RouteConfig[] = [
   },
 
   // esempio con middleware:
-  // {
+  // {  
   //   controller: messagesController,
   //   enabled: true,
   //   middleware: [loggerMiddleware, authMiddleware],
