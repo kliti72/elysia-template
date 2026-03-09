@@ -1,11 +1,11 @@
 // src/routes.ts
 // ✅ Questo è l'unico file da modificare per gestire le route
 import type { RouteConfig } from '../src/core/loader'
-import { healthController } from './controller/messages.controller'
+import { MessagesController } from './controllers/messages.controller'
 
 export const routes: RouteConfig[] = [
   {
-    controller: healthController,
+    controller: MessagesController,
     enabled: true,
     middleware: [],
   },
